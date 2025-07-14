@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='w-full fixed z-[999] px-20 py-8 font-["Neue_Montreal"] flex justify-between items-center'>
+    <div className='w-full fixed z-[999] px-20 py-8 font-["Neue_Montreal"] flex justify-between items-center text-zinc-900'>
         <div className='logo text-3xl'>PortFolio</div>
         <div className='links flex gap-10'>
         {["About" , "Skills" , "Projects" , "Contact"].map((items , index) => {
