@@ -8,7 +8,7 @@ const LandingPage = () => {
                 {["We Create", "Eye Opening", "Presentations"].map((items, index) => {
                     return <div className='masker'>
                         <div className='w-fit flex items-end overflow-hidden'>
-                            {index == 1 && (<div className='mr-[1vw] -top-[0.1vw] w-[8vw] rounded-md h-[5.8vw] bg-red-500 relative'></div>)}
+                            {index == 1 && (<div className='mr-[1vw] -top-[0.1vw] w-[8vw] h-[5.8vw] bg-red-500 relative'></div>)}
                             <h1 className='uppercase text-[9vw] leading-[7vw] font-["Test_Founders_Grotesk_X-Condensed"] font-bold'>
                                 {items}
                             </h1>
