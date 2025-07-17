@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("/NeueMontreal.otf");
+  }
+  
+  @font-face {
+    font-family: "Test_Founders_Grotesk_X-Condensed";
+    src: url("/Founders_Grotesk_X-Condensed.otf");
+  }
+  
+  html, body {
+    font-family: "NeueMontreal", sans-serif;
+  }
+  
