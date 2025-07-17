@@ -1,16 +1,34 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "NeueMontreal";
-    src: url("/NeueMontreal.otf");
-  }
-  
-  @font-face {
-    font-family: "Test_Founders_Grotesk_X-Condensed";
-    src: url("/Founders_Grotesk_X-Condensed.otf");
-  }
-  
-  html, body {
-    font-family: "NeueMontreal", sans-serif;
-  }
-  
+  font-family: "Neue_Montreal";
+  src: url("/NeueMontreal-Regular.otf") format("opentype"),
+       url("/NeueMontreal-Regular.ttf") format("truetype"),
+       url("/NeueMontreal-Regular.woff") format("woff"),
+       url("/NeueMontreal-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- Founders Grotesk X-Condensed --- */
+@font-face {
+  font-family: "Test_Founders_Grotesk_X-Condensed";
+  src: url("/FoundersGroteskXCond-Bold.otf") format("opentype"),
+       url("/FoundersGroteskXCond-Lt.otf") format("opentype"),
+       url("/FoundersGroteskXCond-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --- Founders Grotesk Regular --- */
+@font-face {
+  font-family: "Founders_Grotesk";
+  src: url("/FoundersGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  @apply antialiased;
+  font-family: "Neue_Montreal", sans-serif;
+}
