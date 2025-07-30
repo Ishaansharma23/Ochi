@@ -1,2 +1,20 @@
 @import "tailwindcss";
 
+
+@font-face {
+  font-family: "Neue_Montreal";
+  src: url("/fonts/NeueMontreal-Regular.woff2") format("woff2"),
+       url("/fonts/NeueMontreal-Regular.woff") format("woff"),
+       url("/fonts/NeueMontreal-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Test_Founders_Grotesk_X-Condensed";
+  src: url("/fonts/FoundersGrotesk-Semibold.woff2") format("woff2"),
+       url("/fonts/FoundersGrotesk-Semibold.woff") format("woff"),
+       url("/fonts/FoundersGrotesk-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}

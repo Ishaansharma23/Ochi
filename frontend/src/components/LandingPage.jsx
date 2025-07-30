@@ -6,11 +6,11 @@ const LandingPage = () => {
 
 
     return (
-        <div data-scroll data-scroll-speed="-.3" className='w-full h-screen bg-white text-black pt-1'>
-            <div className='textstructure mt-52 px-20'>
+        <div data-scroll data-scroll-speed="-.3" className='w-full h-screen bg-white text-black pt-1 '>
+            <div className='textstructure mt-52 px-20 '>
                 {["We Create", "Eye Opening", "Presentations"].map((items, index) => {
                     return <div className='masker'>
-                        <div className='w-fit flex items-end overflow-hidden'>
+                        <div className='w-fit flex items-end overflow-hidden rounded-2xl'>
                             {index == 1 && (<motion.div 
                             initial={{ width: 0 }} 
                             animate={{ width: "9vw" }}
